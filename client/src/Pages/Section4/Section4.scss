@@ -1,0 +1,54 @@
+.section4 {
+    padding-top: 5rem;
+    padding-bottom: 9rem;
+    background-color: #F7F8F9;
+
+    .centeredDiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+
+        .header {
+            font-weight: 700;
+            color: #364d59;
+            font-family: 'Playfair Display';
+            font-size: 2rem;
+        }
+    }
+
+    .Card {
+        background-color: white;
+        padding: 30px 30px;
+        margin-top: 6rem;
+
+        .card-header {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex-direction: row;
+
+            img {
+                width: 50px;
+                border-radius: 50%;
+            }
+
+            .text {
+                display: inline-block;
+                flex-direction: column;
+                margin-left: 1rem;
+                text-align: start;
+            }
+        }
+        .paragraph {
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            font-size: 18px;
+            line-height: 1.7;
+            color: #364d59 !important;
+            font-weight: 500;
+        }
+
+    }
+}

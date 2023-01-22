@@ -1,0 +1,32 @@
+.section1{
+    background-image: url(../../Assets/hero_bg_1.jpg.webp);
+    padding-top: 280px;
+    padding-bottom: 280px;
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centeredDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+        .header{
+            max-width: 23%;
+            color: #fff !important;
+            font-family: 'Playfair Display';
+            font-weight: 300;
+            font-size: 50px;
+        }
+        .paragraph{
+            font-size: 16px;
+            color: #fff !important;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            text-align: start;
+            max-width: 23%;
+        }
+    }
+}
